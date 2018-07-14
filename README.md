@@ -1,11 +1,11 @@
-# eslint-config-egg
+# eslint-config-ts
 
-Node Style Guide for Egg.
+Node Style Guide for Typescript.
 
 ## Install
 
 ```bash
-npm i eslint eslint-config-egg --save-dev
+npm i eslint eslint-config-ts --save-dev
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i eslint eslint-config-egg --save-dev
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "3",
+    "eslint-config-ts": "3",
     "eslint": "3"
   }
 }
@@ -25,20 +25,20 @@ npm i eslint eslint-config-egg --save-dev
 
 ```js
 module.exports = {
-  extends: 'eslint-config-egg',
+  extends: 'eslint-config-ts',
 };
 ```
 
 ### Use with Experimental Features
 
-If you want to use eslint-config-egg with experimental features such as `async function`, you should use `babel-eslint` parser:
+If you want to use eslint-config-ts with experimental features such as `async function`, you should use `babel-eslint` parser:
 
 - `package.json`
 
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "3",
+    "eslint-config-ts": "3",
     "eslint": "3",
     "babel-eslint": "6"
   }
@@ -49,7 +49,7 @@ If you want to use eslint-config-egg with experimental features such as `async f
 
 ```js
 module.exports = {
-  extends: 'eslint-config-egg',
+  extends: 'eslint-config-ts',
   // for experimental features support
   parser: 'babel-eslint',
   rules: {
@@ -62,14 +62,14 @@ module.exports = {
 
 ### Use with React in Front-End
 
-If you want to use eslint-config-egg with react, jsx and es6 modules:
+If you want to use eslint-config-ts with react, jsx and es6 modules:
 
 - `package.json`
 
 ```json
 {
   "devDependencies": {
-    "eslint-config-egg": "3",
+    "eslint-config-ts": "3",
     "eslint": "3",
     "babel-eslint": "6",
     "eslint-plugin-react": "4"
@@ -81,7 +81,7 @@ If you want to use eslint-config-egg with react, jsx and es6 modules:
 
 ```js
 module.exports = {
-  extends: 'eslint-config-egg',
+  extends: 'eslint-config-ts',
   // for experimental features support
   parser: 'babel-eslint',
   parserOptions: {

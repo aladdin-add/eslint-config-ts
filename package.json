@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-egg",
+  "name": "eslint-config-ts",
   "version": "6.0.0",
-  "description": "Node Style Guide for Egg.",
+  "description": "Node Style Guide for Typescript.",
   "main": "index",
   "files": [
     ".eslintrc",
@@ -10,6 +10,9 @@
     "react.js",
     "lib"
   ],
+  "peerDependencies": {
+    "typescript": "^2.x"
+  },
   "dependencies": {
     "babel-eslint": "^8.1.2",
     "eslint-plugin-import": "^2.8.0",
@@ -27,10 +30,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eggjs/eslint-config-egg"
+    "url": "https://github.com/Aladdin-ADD/eslint-config-ts"
   },
-  "homepage": "https://github.com/eggjs/eslint-config-egg",
-  "author": "popomore <sakura9515@gmail.com>",
+  "homepage": "https://github.com/Aladdin-ADD/eslint-config-ts",
+  "author": "唯然 <hh_2013@foxmail.com>",
   "scripts": {
     "autod": "autod",
     "lint": "eslint test/*.test.js lib *.js",
@@ -38,7 +41,8 @@
     "ci": "npm run lint && npm run test"
   },
   "engines": {
-    "node": ">= 4.0.0"
+    "node": ">=6.0.0",
+    "npm": ">=3.0.0"
   },
   "ci": {
     "version": "4, 6, 7"
