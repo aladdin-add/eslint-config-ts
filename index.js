@@ -9,4 +9,13 @@ module.exports = {
   parserOptions: {
     sourceType: 'script',
   },
+  overrides: [
+    {
+      files: ['**/*.ts'],
+      parserOptions: {
+        sourceType: 'module',
+      },
+      parser: 'typescript-eslint-parser'
+    }
+  ]
 };
