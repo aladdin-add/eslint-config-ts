@@ -15,7 +15,7 @@ npm i eslint eslint-config-ts --save-dev
 ```json
 {
   "devDependencies": {
-    "eslint-config-ts": "3",
+    "eslint-config-ts": "0.0.0",
     "eslint": "3"
   }
 }
@@ -38,7 +38,7 @@ If you want to use eslint-config-ts with experimental features such as `async fu
 ```json
 {
   "devDependencies": {
-    "eslint-config-ts": "3",
+    "eslint-config-ts": "0.0.0",
     "eslint": "3",
     "babel-eslint": "6"
   }
@@ -69,7 +69,7 @@ If you want to use eslint-config-ts with react, jsx and es6 modules:
 ```json
 {
   "devDependencies": {
-    "eslint-config-ts": "3",
+    "eslint-config-ts": "0.0.0",
     "eslint": "3",
     "babel-eslint": "6",
     "eslint-plugin-react": "4"
