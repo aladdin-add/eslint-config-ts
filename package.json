@@ -12,7 +12,8 @@
     "README.md"
   ],
   "peerDependencies": {
-    "typescript": "^2.x"
+    "eslint": ">=4.19.1",
+    "typescript": ">=2.0.0"
   },
   "dependencies": {
     "babel-eslint": "^8.1.2",
@@ -26,7 +27,7 @@
     "coffee": "^4.1.0",
     "egg-bin": "^1.0.0",
     "egg-ci": "^1.8.0",
-    "eslint": "^4.14.0",
+    "eslint": "^5.1.0",
     "typescript": "^2.9.2",
     "typescript-eslint-parser": "^16.0.1"
   },
@@ -35,7 +36,7 @@
     "url": "https://github.com/Aladdin-ADD/eslint-config-ts"
   },
   "homepage": "https://github.com/Aladdin-ADD/eslint-config-ts",
-  "author": "唯然 <hh_2013@foxmail.com>",
+  "author": "唯然<hh_2013@foxmail.com>",
   "scripts": {
     "autod": "autod",
     "lint": "eslint test/*.test.js lib *.js",
