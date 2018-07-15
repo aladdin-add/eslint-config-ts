@@ -1,3 +1,11 @@
 {
-  "extends": "./index.js"
+  "extends": "./index.js",
+  "overrides": [
+    {
+      "files": ["test/fixtures/**/*"],
+      "rules": {
+        "node/no-unsupported-features": 0
+      }
+    }
+  ]
 }

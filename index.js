@@ -2,13 +2,10 @@
 
 module.exports = {
   extends: [
-    './lib/legacy',
-    './lib/rules/es6',
-    './lib/rules/es8',
-  ].map(require.resolve),
-  parserOptions: {
-    sourceType: 'script',
-  },
+    require.resolve('./base'),
+    'plugin:node/recommended',
+  ],
+  plugins: [ 'node' ],
   overrides: [
     {
       files: [ '**/*.ts' ],
@@ -16,6 +13,12 @@ module.exports = {
         sourceType: 'module',
       },
       parser: 'typescript-eslint-parser',
+      rules: {
+        'node/no-unsupported-features': 0,
+      },
     },
+
+    // TODO: overrides: *.jsx
+    // https://github.com/eslint/eslint/issues/10609
   ],
 };
