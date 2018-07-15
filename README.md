@@ -5,21 +5,10 @@ Node Style Guide for Typescript.
 ## Install
 
 ```bash
-npm i eslint eslint-config-ts --save-dev
+$ npm i eslint eslint-config-ts typescript -D
 ```
 
 ## Usage
-
-- `package.json`
-
-```json
-{
-  "devDependencies": {
-    "eslint-config-ts": "0.0.0",
-    "eslint": "3"
-  }
-}
-```
 
 - `.eslintrc.js`
 
@@ -33,16 +22,10 @@ module.exports = {
 
 If you want to use eslint-config-ts with experimental features such as `async function`, you should use `babel-eslint` parser:
 
-- `package.json`
+- install babel-eslint
 
-```json
-{
-  "devDependencies": {
-    "eslint-config-ts": "0.0.0",
-    "eslint": "3",
-    "babel-eslint": "6"
-  }
-}
+```bash
+$ npm i babel-eslint -D
 ```
 
 - `.eslintrc.js`
@@ -64,19 +47,6 @@ module.exports = {
 
 If you want to use eslint-config-ts with react, jsx and es6 modules:
 
-- `package.json`
-
-```json
-{
-  "devDependencies": {
-    "eslint-config-ts": "0.0.0",
-    "eslint": "3",
-    "babel-eslint": "6",
-    "eslint-plugin-react": "4"
-  }
-}
-```
-
 - `.eslintrc.js`
 
 ```js
@@ -88,9 +58,6 @@ module.exports = {
     // for es6 module
     sourceType: 'module',
   },
-  plugins: [
-    'react',
-  ],
   rules: {
     // for variables in jsx
     'react/jsx-uses-vars': 'error',
