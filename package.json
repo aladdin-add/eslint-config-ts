@@ -8,7 +8,8 @@
     "index.js",
     "legacy.js",
     "react.js",
-    "lib"
+    "lib",
+    "LICENSE"
   ],
   "peerDependencies": {
     "typescript": "^2.x"
