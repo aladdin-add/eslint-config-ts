@@ -22,12 +22,6 @@ module.exports = {
 
 If you want to use eslint-config-ts with experimental features such as `async function`, you should use `babel-eslint` parser:
 
-- install babel-eslint
-
-```bash
-$ npm i babel-eslint -D
-```
-
 - `.eslintrc.js`
 
 ```js
