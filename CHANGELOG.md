@@ -1,1 +1,23 @@
-# Changelog
+v0.1.0 - July 16, 2018
+
+* 98ef906 Docs: changelog (薛定谔的猫)
+* a82ff9e Build: add release script (薛定谔的猫)
+* c5b6973 Docs: no need to install babel-eslint (薛定谔的猫)
+* 59c0831 Build: add eslint-release (薛定谔的猫)
+* 0da7714 Fix: package files + base.js (薛定谔的猫)
+* d7e438a Chore: rename history => changelog (薛定谔的猫)
+* 0f2ad1e Docs: update install & usage (薛定谔的猫)
+* a321535 New: add eslint-plugin-node (薛定谔的猫)
+* 070e384 New: add support eslint v5 (薛定谔的猫)
+* 2d2d9de Build: node 6, 8, 10 (薛定谔的猫)
+* 18434bc Chore: apply eslint --fix (薛定谔的猫)
+* bc671c7 Docs: clean history.md (薛定谔的猫)
+* 7f66072 Chore: files+readme, -.eslintrc (薛定谔的猫)
+* 9348875 Chore: files + license (薛定谔的猫)
+* 80882c6 Chore: fix deps (weiran.zsd)
+* d984344 Docs: fix version in readme (weiran.zsd)
+* b364082 Build: update package.json and changelog for v0.0.0 (weiran.zsd)
+* 60dead4 Chore: rename eslint-config-egg => eslint-config-ts (weiran.zsd)
+* 3728e63 New: add support ts (weiran.zsd)
+* 9051dfb Chore: disable package-lock (weiran.zsd)
+
