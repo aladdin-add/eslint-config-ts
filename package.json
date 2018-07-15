@@ -4,12 +4,12 @@
   "description": "Node Style Guide for Typescript.",
   "main": "index",
   "files": [
-    ".eslintrc",
     "index.js",
     "legacy.js",
     "react.js",
     "lib",
-    "LICENSE"
+    "LICENSE",
+    "README.md"
   ],
   "peerDependencies": {
     "typescript": "^2.x"
