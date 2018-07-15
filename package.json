@@ -4,6 +4,7 @@
   "description": "Node Style Guide for Typescript.",
   "main": "index",
   "files": [
+    "base.js",
     "index.js",
     "legacy.js",
     "react.js",
