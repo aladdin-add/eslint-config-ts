@@ -11,11 +11,11 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['**/*.ts'],
+      files: [ '**/*.ts' ],
       parserOptions: {
         sourceType: 'module',
       },
-      parser: 'typescript-eslint-parser'
-    }
-  ]
+      parser: 'typescript-eslint-parser',
+    },
+  ],
 };
