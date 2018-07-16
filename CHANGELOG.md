@@ -1,3 +1,5 @@
+# Changelog
+
 v0.1.0 - July 16, 2018
 
 * 98ef906 Docs: changelog (薛定谔的猫)
