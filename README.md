@@ -25,20 +25,14 @@ module.exports = {
 
 ### Use with Experimental Features
 
-If you want to use eslint-config-ts with experimental features such as `async function`, you should use `babel-eslint` parser:
+If you want to use eslint-config-ts with experimental features, you should use `babel-eslint` parser:
 
 - `.eslintrc.js`
 
 ```js
 module.exports = {
   extends: 'eslint-config-ts',
-  // for experimental features support
   parser: 'babel-eslint',
-  rules: {
-    // see https://github.com/eslint/eslint/issues/6274
-    'generator-star-spacing': 'off',
-    'babel/generator-star-spacing': 'off',
-  }
 };
 ```
 
@@ -50,19 +44,10 @@ If you want to use eslint-config-ts with react, jsx and es6 modules:
 
 ```js
 module.exports = {
-  extends: 'eslint-config-ts',
-  // for experimental features support
+  extends: 'eslint-config-ts/react',
   parser: 'babel-eslint',
   parserOptions: {
-    // for es6 module
     sourceType: 'module',
-  },
-  rules: {
-    // for variables in jsx
-    'react/jsx-uses-vars': 'error',
-    // see https://github.com/eslint/eslint/issues/6274
-    'generator-star-spacing': 'off',
-    'babel/generator-star-spacing': 'off',
   },
 };
 ```
