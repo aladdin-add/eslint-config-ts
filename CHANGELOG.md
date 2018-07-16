@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.1.1 (2018-07-16)
+
+* Upgrade: eslint-plugin-jsx-a11y@6.1.1 ([f8c8c83](https://github.com/Aladdin-ADD/eslint-config-egg/commit/f8c8c8361b42804a54ff80252c1b1732987f57f6))
+* Build: update package.json and changelog for v0.1.0 ([0c54162](https://github.com/Aladdin-ADD/eslint-config-egg/commit/0c54162154b7350b27edaef487826b8be355c4b8))
+* Docs: add changelog header ([7ffe620](https://github.com/Aladdin-ADD/eslint-config-egg/commit/7ffe620b7053b3e7e6891a63fed35398ffc91ed4))
+* Docs: fix exammple config ([e013938](https://github.com/Aladdin-ADD/eslint-config-egg/commit/e0139380f7923fbd7da8f0d209242622828a1510))
+* Chore: fix typo in autod.conf ([d0b1d34](https://github.com/Aladdin-ADD/eslint-config-egg/commit/d0b1d34d475f2e54e20b74cea51ec2c6eeb0c91e))
+* Chore: rm dulp dep typescript-eslint-parser ([d28e211](https://github.com/Aladdin-ADD/eslint-config-egg/commit/d28e211587cb828b60179e8c752763211f2747de))
+* Docs: add requirements ([57f8608](https://github.com/Aladdin-ADD/eslint-config-egg/commit/57f86087e0355b369788f5d2d0392de5b1676f36))
+* Docs: semantic versioning & changelog ([80d5d0a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/80d5d0afb61ac36091575b270337909a9b5cf14a))
+* Chore: package.json + license ([913063c](https://github.com/Aladdin-ADD/eslint-config-egg/commit/913063c356296f82954f6e4819edfc58ffc4724c))
+* Upgrade: devdep egg-bin@4.7.1 ([239f0fe](https://github.com/Aladdin-ADD/eslint-config-egg/commit/239f0fe91d44f5be59c928bc4f9c6c536d2c6039))
+
 ## v0.1.0 (2018-07-16)
 
 * Build: changelog update for 0.1.0 ([7047bef](https://github.com/Aladdin-ADD/eslint-config-egg/commit/7047bef8b6319a6451a0df756d3de2b756d83615))
