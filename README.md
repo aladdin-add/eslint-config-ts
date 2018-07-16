@@ -2,13 +2,18 @@
 
 Node Style Guide for Typescript.
 
-## Install
+## 💿 Installation
 
 ```bash
 $ npm i eslint eslint-config-ts typescript -D
 ```
 
-## Usage
+### Requirements
+
+- Node.js `^6.5.0`, `^8.0.0`, `^9.0.0` or newer versions.
+- ESLint `^4.19.1` or newer versions.
+
+## 📖 Usage
 
 - `.eslintrc.js`
 
