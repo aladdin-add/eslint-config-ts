@@ -53,5 +53,6 @@
   },
   "ci": {
     "version": "6, 8, 10"
-  }
+  },
+  "license": "MIT"
 }
