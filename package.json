@@ -53,5 +53,11 @@
   "ci": {
     "version": "6, 8, 10"
   },
+  "keywords": [
+    "eslint",
+    "typescript",
+    "style guide",
+    "node.js"
+  ],
   "license": "MIT"
 }
