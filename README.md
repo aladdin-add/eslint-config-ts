@@ -62,6 +62,14 @@ module.exports = {
 };
 ```
 
+## 🚥 Semantic Versioning Policy
+
+This plugin follows [semantic versioning](http://semver.org/) and [ESLint's Semantic Versioning Policy](https://github.com/eslint/eslint#semantic-versioning-policy).
+
+## 📰 Changelog
+
+- [CHANGELOG](./CHANGELOG.md)
+
 ## License
 
 [MIT](LICENSE)
