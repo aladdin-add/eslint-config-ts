@@ -1,5 +1,9 @@
 # Changelog
 
+## v0.1.3 (2018-07-17)
+
+* Revert "Upgrade: eslint-plugin-node@7.0.1" ([fa188ae](https://github.com/Aladdin-ADD/eslint-config-egg/commit/fa188aebe660a04063c27a53e807598095e684d3))
+
 ## v0.1.2 (2018-07-17)
 
 * Upgrade: eslint-plugin-node@7.0.1 ([87f5d6a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/87f5d6a54a0ff9ad1169ae906e9781398abf57e1))
