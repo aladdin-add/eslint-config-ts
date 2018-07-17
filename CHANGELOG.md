@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.2 (2018-07-17)
+
+* Upgrade: eslint-plugin-node@7.0.1 ([87f5d6a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/87f5d6a54a0ff9ad1169ae906e9781398abf57e1))
+* Chore: add keywords ([2832b16](https://github.com/Aladdin-ADD/eslint-config-egg/commit/2832b16f9f502dfc31982d1289b75f4b2960618b))
+
 ## v0.1.1 (2018-07-16)
 
 * Upgrade: eslint-plugin-jsx-a11y@6.1.1 ([f8c8c83](https://github.com/Aladdin-ADD/eslint-config-egg/commit/f8c8c8361b42804a54ff80252c1b1732987f57f6))
