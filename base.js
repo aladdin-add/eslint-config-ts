@@ -1,11 +1,12 @@
 'use strict';
 
 const base = [
-  './lib/legacy',
-  './lib/rules/es6',
-  './lib/rules/es8',
-  './lib/rules/es9',
-].map(require.resolve);
+  'eslint:recommended',
+  require.resolve('./lib/legacy'),
+  require.resolve('./lib/rules/es6'),
+  require.resolve('./lib/rules/es8'),
+  require.resolve('./lib/rules/es9'),
+];
 
 module.exports = {
   extends: base,
