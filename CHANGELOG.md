@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.0.0 (2018-07-18)
+
+* Breaking: ts/base + eslint:recommended ([fc64517](https://github.com/Aladdin-ADD/eslint-config-egg/commit/fc6451760c16af5888986c1e0f93e7ac35f768a3))
+* Chore: reformat package.json ([7c57343](https://github.com/Aladdin-ADD/eslint-config-egg/commit/7c573433160dc53ff94fb8a979e3536533cce459))
+* Breaking: ecmaVersion defaults to ES9 ([fb256f0](https://github.com/Aladdin-ADD/eslint-config-egg/commit/fb256f0ad275786a8f98ae26cba62597b38a46f7))
+* Breaking: upgrade eslint-plugin-node@7.0.1 ([3b1bb7f](https://github.com/Aladdin-ADD/eslint-config-egg/commit/3b1bb7fe599175b78cc056316bdc3b72e7eda774))
+
 ## v0.1.3 (2018-07-17)
 
 * Revert "Upgrade: eslint-plugin-node@7.0.1" ([fa188ae](https://github.com/Aladdin-ADD/eslint-config-egg/commit/fa188aebe660a04063c27a53e807598095e684d3))

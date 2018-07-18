@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ts",
-  "version": "0.1.3",
+  "version": "1.0.0",
   "description": "Node Style Guide for Typescript",
   "license": "MIT",
   "repository": "Aladdin-ADD/eslint-config-ts",
