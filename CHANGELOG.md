@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.1 (2018-07-20)
+
+* Fix: node/no-unsupported-features was depre. ([ed9570c](https://github.com/Aladdin-ADD/eslint-config-egg/commit/ed9570cb50e9e9db76582d148fdfc86bae255bd6))
+
 ## v1.0.0 (2018-07-18)
 
 * Breaking: ts/base + eslint:recommended ([fc64517](https://github.com/Aladdin-ADD/eslint-config-egg/commit/fc6451760c16af5888986c1e0f93e7ac35f768a3))
