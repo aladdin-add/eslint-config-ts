@@ -14,7 +14,8 @@ module.exports = {
       },
       parser: 'typescript-eslint-parser',
       rules: {
-        'node/no-unsupported-features': 0,
+        'node/no-unsupported-features/es-builtins': 0,
+        'node/no-unsupported-features/es-syntax': 0,
       },
     },
 
