@@ -5,7 +5,6 @@ module.exports = {
     require.resolve('./base'),
     'plugin:node/recommended',
   ],
-  plugins: [ 'node' ],
   overrides: [
     {
       files: [ '**/*.ts' ],

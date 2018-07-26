@@ -46,7 +46,7 @@
     "coffee": "^4.1.0",
     "egg-bin": "^4.7.1",
     "egg-ci": "^1.8.0",
-    "eslint": "^5.1.0",
+    "eslint": "^5.2.0",
     "typescript": "^2.9.2"
   },
   "peerDependencies": {
