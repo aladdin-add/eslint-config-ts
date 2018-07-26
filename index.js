@@ -15,7 +15,7 @@ module.exports = {
       parser: 'typescript-eslint-parser',
       rules: {
         // no need to enable in *.ts
-        'node/no-unsupported-features/es-syntax': 0,
+        'node/no-unsupported-features/es-syntax': 'off',
 
         // // typescript-specific rules:
         'typescript/adjacent-overload-signatures': 'error',
