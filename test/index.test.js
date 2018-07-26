@@ -17,7 +17,7 @@ describe('test/index.test.js', () => {
 
     it('should success', () => {
       return coffee.spawn('eslint', [ 'comma-dangle.js' ], { cwd })
-        // .debug()
+        .debug()
         .expect('code', 0)
         .end();
     });

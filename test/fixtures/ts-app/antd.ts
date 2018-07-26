@@ -1,25 +1,23 @@
 import raf from 'raf';
 
-export default function throttleByAnimationFrame(fn: (...args: any[]) => void) {
+export default function throttleByAnimationFrame(fn: (...args: any[]) => void): any {
   let requestId: number | null;
 
-  const later = (args: any[]) => () => {
+  const later = (args: any[]): Function => () => {
     requestId = null;
     fn(...args);
   };
 
-  const throttled = (...args: any[]) => {
+  const throttled = (...args: any[]): void => {
     if (requestId == null) {
       requestId = raf(later(args));
     }
   };
 
-  (throttled as any).cancel = () => raf.cancel(requestId!);
-
   return throttled;
 }
 
-export function throttleByAnimationFrameDecorator() {
+export function throttleByAnimationFrameDecorator(): any {
   return function(target: any, key: string, descriptor: any) {
     const fn = descriptor.value;
     let definingProperty = false;
