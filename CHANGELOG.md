@@ -2,6 +2,10 @@
 
 ## v2.0.0 (2018-08-02)
 
+* Update: disable no-undef, no-unused-vars ([ef7040a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/ef7040ada274cf2eb2037e89b6487fd468f34f35))
+
+## v2.0.0 (2018-08-02)
+
 * Upgrade: deps ([72b8b9a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/72b8b9a6b0ae4458f25e6316fcdadba83b3d1ce8))
 * Upgrade: typescript v3 ([dd17d3b](https://github.com/Aladdin-ADD/eslint-config-egg/commit/dd17d3b57eaf690371aed104bd6d04829a70d62f))
 * Upgrade: typescript v3 ([#5](https://github.com/Aladdin-ADD/eslint-config-egg/issues/5)) ([5332f26](https://github.com/Aladdin-ADD/eslint-config-egg/commit/5332f26e09b88cf9781789ac5a099645c54baeec))
