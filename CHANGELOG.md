@@ -1,5 +1,13 @@
 # Changelog
 
+## v2.0.0 (2018-08-02)
+
+* Upgrade: deps ([72b8b9a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/72b8b9a6b0ae4458f25e6316fcdadba83b3d1ce8))
+* Upgrade: typescript v3 ([dd17d3b](https://github.com/Aladdin-ADD/eslint-config-egg/commit/dd17d3b57eaf690371aed104bd6d04829a70d62f))
+* Upgrade: typescript v3 ([#5](https://github.com/Aladdin-ADD/eslint-config-egg/issues/5)) ([5332f26](https://github.com/Aladdin-ADD/eslint-config-egg/commit/5332f26e09b88cf9781789ac5a099645c54baeec))
+* Breaking: add plugin eslint-plugin-typescript (fixes [#2](https://github.com/Aladdin-ADD/eslint-config-egg/issues/2)) ([#3](https://github.com/Aladdin-ADD/eslint-config-egg/issues/3)) ([4dfc827](https://github.com/Aladdin-ADD/eslint-config-egg/commit/4dfc8279b796e46967043c389380a7113d64911f))
+* Chore: upgrade eslint@5.2.0 & rm unnessary plugin in config ([a7744ad](https://github.com/Aladdin-ADD/eslint-config-egg/commit/a7744ad06cb10d0db7c4e7590996f38ab5ce7c61))
+
 ## v1.0.1 (2018-07-20)
 
 * Fix: node/no-unsupported-features was depre. ([ed9570c](https://github.com/Aladdin-ADD/eslint-config-egg/commit/ed9570cb50e9e9db76582d148fdfc86bae255bd6))

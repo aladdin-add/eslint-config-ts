@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-ts",
-  "version": "1.0.1",
+  "version": "2.0.0-alpha.0",
   "description": "Node Style Guide for Typescript",
   "license": "MIT",
   "repository": "Aladdin-ADD/eslint-config-ts",
@@ -44,7 +44,7 @@
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",
     "autod": "^3.0.1",
-    "coffee": "^4.1.0",
+    "coffee": "^4.2.0",
     "egg-bin": "^4.8.1",
     "egg-ci": "^1.8.0",
     "eslint": "^5.2.0",
