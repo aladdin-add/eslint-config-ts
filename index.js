@@ -40,7 +40,10 @@ module.exports = {
         'typescript/no-var-requires': 'error',
         'typescript/prefer-namespace-keyword': 'error',
         'typescript/type-annotation-spacing': 'error',
+
+        // https://github.com/eslint/typescript-eslint-parser#known-issues
         'no-undef': 'off',
+        'no-unused-vars': 'off',
       },
     },
 
