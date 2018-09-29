@@ -51,7 +51,9 @@
     "typescript": "^3.0.1"
   },
   "peerDependencies": {
-    "eslint": ">=4.19.1",
+    "eslint": ">=4.19.1"
+  },
+  "optionalDependencies": {
     "typescript": ">=2.0.0"
   },
   "ci": {
