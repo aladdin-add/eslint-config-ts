@@ -1,5 +1,12 @@
 # Changelog
 
+## v2.0.0 (2018-09-29)
+
+* Chore: ts as optionalDependencies ([b91255b](https://github.com/Aladdin-ADD/eslint-config-ts/commit/b91255b967e6b8085cdfd58fcb6efc10892432ad))
+* Upgrade: eslint@5.6.0 ([91cfda5](https://github.com/Aladdin-ADD/eslint-config-ts/commit/91cfda59f4c6fa8fa3ecb30f7c7e244aae66260c))
+* Upgrade: babel-eslint ([0972d93](https://github.com/Aladdin-ADD/eslint-config-ts/commit/0972d9387ba44f33731584a84cd02a3e2e7a455e))
+* Upgrade: dev & deps ([97dd88b](https://github.com/Aladdin-ADD/eslint-config-ts/commit/97dd88bc05e1702d6668bf81939791e80ae4589a))
+
 ## v2.0.0 (2018-08-02)
 
 * Update: disable no-undef, no-unused-vars ([ef7040a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/ef7040ada274cf2eb2037e89b6487fd468f34f35))
