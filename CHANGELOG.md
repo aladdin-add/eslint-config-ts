@@ -1,5 +1,17 @@
 # Changelog
 
+## v2.0.0 (2019-01-03)
+
+* Upgrade: deps to latest ([e33afff](https://github.com/Aladdin-ADD/eslint-config-ts/commit/e33afffe3990a44408282cfe6063d944f4cd99b4))
+* Chore: fix linting ([bedc1ec](https://github.com/Aladdin-ADD/eslint-config-ts/commit/bedc1eca06455dceacdd3b7aa443d8939fc15917))
+* Docs: fix changelog version ([fdf0a97](https://github.com/Aladdin-ADD/eslint-config-ts/commit/fdf0a97a18b287f57304a450307eecc731c140a8))
+* Breaking: switch to eslint-plugin-typescript/recommended ([f51d940](https://github.com/Aladdin-ADD/eslint-config-ts/commit/f51d9407c0c33abef9a93f69b849b9c23a608721))
+* Build: update package.json and changelog for v2.0.0 ([93ee0a8](https://github.com/Aladdin-ADD/eslint-config-ts/commit/93ee0a8d438032f8a750529516366facbe1f56f0))
+* Chore: ts as optionalDependencies ([b91255b](https://github.com/Aladdin-ADD/eslint-config-ts/commit/b91255b967e6b8085cdfd58fcb6efc10892432ad))
+* Upgrade: eslint@5.6.0 ([91cfda5](https://github.com/Aladdin-ADD/eslint-config-ts/commit/91cfda59f4c6fa8fa3ecb30f7c7e244aae66260c))
+* Upgrade: babel-eslint ([0972d93](https://github.com/Aladdin-ADD/eslint-config-ts/commit/0972d9387ba44f33731584a84cd02a3e2e7a455e))
+* Upgrade: dev & deps ([97dd88b](https://github.com/Aladdin-ADD/eslint-config-ts/commit/97dd88bc05e1702d6668bf81939791e80ae4589a))
+
 ## 2.0.0-alpha.1 (2018-09-29)
 
 * Chore: ts as optionalDependencies ([b91255b](https://github.com/Aladdin-ADD/eslint-config-ts/commit/b91255b967e6b8085cdfd58fcb6efc10892432ad))
