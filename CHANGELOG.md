@@ -1,18 +1,15 @@
 # Changelog
 
-## v2.0.0 (2018-09-29)
+## 2.0.0-alpha.1 (2018-09-29)
 
 * Chore: ts as optionalDependencies ([b91255b](https://github.com/Aladdin-ADD/eslint-config-ts/commit/b91255b967e6b8085cdfd58fcb6efc10892432ad))
 * Upgrade: eslint@5.6.0 ([91cfda5](https://github.com/Aladdin-ADD/eslint-config-ts/commit/91cfda59f4c6fa8fa3ecb30f7c7e244aae66260c))
 * Upgrade: babel-eslint ([0972d93](https://github.com/Aladdin-ADD/eslint-config-ts/commit/0972d9387ba44f33731584a84cd02a3e2e7a455e))
 * Upgrade: dev & deps ([97dd88b](https://github.com/Aladdin-ADD/eslint-config-ts/commit/97dd88bc05e1702d6668bf81939791e80ae4589a))
 
-## v2.0.0 (2018-08-02)
+## 2.0.0-alpha.0 (2018-08-02)
 
 * Update: disable no-undef, no-unused-vars ([ef7040a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/ef7040ada274cf2eb2037e89b6487fd468f34f35))
-
-## v2.0.0 (2018-08-02)
-
 * Upgrade: deps ([72b8b9a](https://github.com/Aladdin-ADD/eslint-config-egg/commit/72b8b9a6b0ae4458f25e6316fcdadba83b3d1ce8))
 * Upgrade: typescript v3 ([dd17d3b](https://github.com/Aladdin-ADD/eslint-config-egg/commit/dd17d3b57eaf690371aed104bd6d04829a70d62f))
 * Upgrade: typescript v3 ([#5](https://github.com/Aladdin-ADD/eslint-config-egg/issues/5)) ([5332f26](https://github.com/Aladdin-ADD/eslint-config-egg/commit/5332f26e09b88cf9781789ac5a099645c54baeec))
