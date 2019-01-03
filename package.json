@@ -33,27 +33,26 @@
     "node.js"
   ],
   "dependencies": {
-    "babel-eslint": "^9.0.0",
+    "babel-eslint": "^10.0.1",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.1",
-    "eslint-plugin-node": "^7.0.1",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-react": "^7.12.2",
     "eslint-plugin-typescript": "^1.0.0-rc.1"
   },
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",
     "autod": "^3.0.1",
-    "coffee": "^5.1.0",
+    "coffee": "^5.2.1",
     "egg-bin": "^4.8.1",
-    "egg-ci": "^1.8.0",
-    "eslint": "^5.6.0",
-    "typescript": "^3.0.1"
+    "egg-ci": "^1.11.0",
+    "eslint": "^5.11.1"
   },
   "peerDependencies": {
     "eslint": ">=4.19.1"
   },
   "optionalDependencies": {
-    "typescript": ">=2.0.0"
+    "typescript": "^3.2.2"
   },
   "ci": {
     "version": "6, 8, 10"
