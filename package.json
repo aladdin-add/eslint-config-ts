@@ -23,6 +23,7 @@
     "legacy.js",
     "react.js",
     "lib",
+    "node.js",
     "LICENSE",
     "README.md"
   ],
