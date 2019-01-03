@@ -38,8 +38,7 @@
     "eslint-plugin-jsx-a11y": "^6.1.1",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-react": "^7.11.1",
-    "eslint-plugin-typescript": "^0.12.0",
-    "typescript-eslint-parser": "^18.0.0"
+    "eslint-plugin-typescript": "^1.0.0-rc.1"
   },
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",
