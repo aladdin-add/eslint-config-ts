@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.0.1 (2019-01-03)
+
+* Fix: add missing files in pkg ([94ae8e3](https://github.com/Aladdin-ADD/eslint-config-ts/commit/94ae8e344754cf06c2dedf3ef7252159c7ed54ec))
+
 ## v2.0.0 (2019-01-03)
 
 * Upgrade: deps to latest ([e33afff](https://github.com/Aladdin-ADD/eslint-config-ts/commit/e33afffe3990a44408282cfe6063d944f4cd99b4))
