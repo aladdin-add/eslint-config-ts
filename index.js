@@ -7,6 +7,6 @@ module.exports = {
     'plugin:typescript/recommended',
   ],
   rules: {
-    "typescript/indent": [2, 2]
-  }
+    'typescript/indent': [ 2, 2 ],
+  },
 };
