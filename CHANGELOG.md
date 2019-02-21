@@ -1,5 +1,10 @@
 # Changelog
 
+## v2.0.2 (2019-02-21)
+
+* Chore: upgrade to @typescript-eslint ([7e35ce9](https://github.com/Aladdin-ADD/eslint-config-ts/commit/7e35ce9910ee5b1a32ada6e9e666304dd9248092))
+* Upgrade: deps ([09559f0](https://github.com/Aladdin-ADD/eslint-config-ts/commit/09559f0157a0ee867724e332e2bc6a33c80988d8))
+
 ## v2.0.1 (2019-01-03)
 
 * Fix: add missing files in pkg ([94ae8e3](https://github.com/Aladdin-ADD/eslint-config-ts/commit/94ae8e344754cf06c2dedf3ef7252159c7ed54ec))
