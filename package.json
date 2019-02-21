@@ -35,19 +35,19 @@
   ],
   "dependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-jsx-a11y": "^6.1.2",
-    "eslint-plugin-node": "^8.0.0",
-    "eslint-plugin-react": "^7.12.2",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-typescript": "^1.0.0-rc.1"
   },
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",
     "autod": "^3.0.1",
     "coffee": "^5.2.1",
-    "egg-bin": "^4.8.1",
+    "egg-bin": "^4.11.0",
     "egg-ci": "^1.11.0",
-    "eslint": "^5.11.1"
+    "eslint": "^5.14.1"
   },
   "peerDependencies": {
     "eslint": ">=4.19.1"
