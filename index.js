@@ -4,9 +4,9 @@ module.exports = {
   extends: [
     require.resolve('./base'),
     'plugin:node/recommended',
-    'plugin:typescript/recommended',
+    'plugin:@typescript-eslint/recommended',
   ],
   rules: {
-    'typescript/indent': [ 2, 2 ],
+    '@typescript-eslint/indent': [ 2, 2 ],
   },
 };
