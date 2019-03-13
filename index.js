@@ -8,5 +8,6 @@ module.exports = {
   ],
   rules: {
     '@typescript-eslint/indent': [ 2, 2 ],
+    '@typescript-eslint/no-use-before-define': [ 2, { functions: false }],
   },
 };
