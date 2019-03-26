@@ -1,5 +1,10 @@
 # Changelog
 
+## v3.0.0 (2019-03-26)
+
+* Upgrade: deps ([467a1cd](https://github.com/Aladdin-ADD/eslint-config-ts/commit/467a1cdb6bbcac6e6c6975df5859bac05c313c2e))
+* Chore: rm unused deps ([fdcf80f](https://github.com/Aladdin-ADD/eslint-config-ts/commit/fdcf80f491142cf0681c48f6992df5fc7b1127ad))
+
 ## v2.0.2 (2019-02-21)
 
 * Chore: upgrade to @typescript-eslint ([7e35ce9](https://github.com/Aladdin-ADD/eslint-config-ts/commit/7e35ce9910ee5b1a32ada6e9e666304dd9248092))
