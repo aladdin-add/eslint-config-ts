@@ -1,5 +1,9 @@
 # Changelog
 
+## v3.1.0 (2019-04-03)
+
+* Update: enable no-empty option allowEmptyCatch ([2e27d5a](https://github.com/Aladdin-ADD/eslint-config-ts/commit/2e27d5af003eb44fb8f571f7fc18074500b111d9))
+
 ## v3.0.0 (2019-03-26)
 
 * Upgrade: deps ([467a1cd](https://github.com/Aladdin-ADD/eslint-config-ts/commit/467a1cdb6bbcac6e6c6975df5859bac05c313c2e))
