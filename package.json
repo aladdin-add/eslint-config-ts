@@ -7,7 +7,7 @@
   "author": "唯然<hh_2013@foxmail.com>",
   "main": "index",
   "engines": {
-    "node": ">=6.0.0",
+    "node": ">=8.0.0",
     "npm": ">=3.0.0"
   },
   "scripts": {
@@ -56,6 +56,6 @@
     "typescript": "^3.2.2"
   },
   "ci": {
-    "version": "6, 8, 10"
+    "version": "12"
   }
 }
