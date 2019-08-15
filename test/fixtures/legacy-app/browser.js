@@ -1,3 +1,4 @@
 'use strict';
 
-console.log(name);
+var foo = 0;
+console.log(foo);

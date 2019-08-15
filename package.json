@@ -14,9 +14,8 @@
     "npm": ">=3.0.0"
   },
   "scripts": {
-    "lint": "eslint test/*.test.js lib *.js",
-    "test": "egg-bin test",
-    "ci": "npm run lint && npm run test",
+    "lint": "eslint \"**/*.{ts.js,tsx,jsx}\"",
+    "test": "npm run lint",
     "release": "node-release-script"
   },
   "files": [
@@ -41,10 +40,6 @@
   },
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",
-    "babel-eslint": "^10.0.2",
-    "coffee": "^5.2.2",
-    "egg-bin": "^4.13.1",
-    "egg-ci": "^1.13.0",
     "eslint": "^6.1.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
