@@ -8,8 +8,8 @@ describe('test/ts.test.js', () => {
 
   describe('ts app', () => {
     it('should success', () => {
-      return coffee.spawn('eslint', [ 'antd.ts' ], { cwd })
-        // .debug()
+      return coffee.spawn('eslint', [ 'app.ts' ], { cwd })
+        .debug()
         .expect('code', 0)
         .end();
     });

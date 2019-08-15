@@ -1,22 +1,25 @@
 'use strict';
 
 module.exports = {
+  root: true,
   extends: [
-    './lib/legacy',
-    './lib/rules/es6',
-    './lib/rules/es8',
-    './lib/rules/es9',
-    './lib/rules/browser',
-    './lib/rules/import',
-    './lib/rules/react',
-    './lib/rules/react-a11y',
-  ].map(require.resolve),
-  parser: 'babel-eslint',
-  rules: {},
+    require.resolve('./es'),
+    'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended',
+  ],
+  env: {
+    browser: true,
+    es6: true,
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
-      experimentalObjectRestSpread: true,
+    },
+  },
+  settings: {
+    react: {
+      pragma: 'React',
+      version: 'detect',
     },
   },
 };

@@ -2,7 +2,7 @@
 
 module.exports = {
   extends: [
-    require.resolve('./es'),
+    require.resolve('./ts'),
     'plugin:node/recommended',
   ],
   env: {
