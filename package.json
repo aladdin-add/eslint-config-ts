@@ -3,7 +3,10 @@
   "version": "3.1.1",
   "description": "Node Style Guide for Typescript",
   "license": "MIT",
-  "repository": "Aladdin-ADD/eslint-config-ts",
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/aladdin-add/eslint-config-ts"
+  },
   "author": "唯然<hh_2013@foxmail.com>",
   "main": "index",
   "engines": {
@@ -11,7 +14,6 @@
     "npm": ">=3.0.0"
   },
   "scripts": {
-    "autod": "autod",
     "lint": "eslint test/*.test.js lib *.js",
     "test": "egg-bin test",
     "ci": "npm run lint && npm run test",
@@ -44,7 +46,6 @@
   },
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",
-    "autod": "^3.0.1",
     "coffee": "^5.2.2",
     "egg-bin": "^4.13.1",
     "egg-ci": "^1.13.0",
