@@ -8,7 +8,7 @@
     "url": "https://github.com/aladdin-add/eslint-config-ts"
   },
   "author": "唯然<hh_2013@foxmail.com>",
-  "main": "index",
+  "main": "index.js",
   "engines": {
     "node": ">=8.0.0",
     "npm": ">=3.0.0"
