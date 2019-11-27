@@ -35,11 +35,12 @@
     "@typescript-eslint/parser": "^2.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-node": "^10.0.0",
     "eslint-plugin-react": "^7.14.3"
   },
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",
+    "@types/node": "^12.12.14",
     "eslint": "^6.1.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"

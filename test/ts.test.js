@@ -8,7 +8,7 @@ describe('test/ts.test.js', () => {
 
   describe('ts app', () => {
     it('should success', () => {
-      return coffee.spawn('eslint', [ 'app.ts' ], { cwd })
+      return coffee.spawn('eslint', ['app.ts'], { cwd })
         .debug()
         .expect('code', 0)
         .end();
