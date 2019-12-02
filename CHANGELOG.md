@@ -1,5 +1,10 @@
 # Changelog
 
+## v4.0.1 (2019-12-02)
+
+* Fix: resolve ts files ([81a2379](https://github.com/Aladdin-ADD/eslint-config-ts/commit/81a237991e61fd4af67adb2a8563649fb9ece5ab))
+* Chore: update lint script ([4f5f100](https://github.com/Aladdin-ADD/eslint-config-ts/commit/4f5f1007711bf0cf2024bb41d8a9ea9db0380ced))
+
 ## v4.0.0 (2019-11-27)
 
 * Chore: upgrade deps ([dcdd517](https://github.com/Aladdin-ADD/eslint-config-ts/commit/dcdd517971132035c0e9765e38c179d21ea73986))
