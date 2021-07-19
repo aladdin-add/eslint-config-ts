@@ -41,7 +41,7 @@
   "devDependencies": {
     "@not-an-aardvark/node-release-script": "^0.1.0",
     "@types/node": "^13.1.2",
-    "eslint": "^6.8.0",
+    "eslint": "^7.31.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   },
